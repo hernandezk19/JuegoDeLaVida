@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    padding: 15px;
+    margin: 20px;
+    background-color: #ececec;
+    text-align: center;
+    font-size: 2em;
+}
+
+#table-container {
+    width: 90%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#buttons-container {
+    padding: 15px;
+    display: flex;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-collapse: collapse;
+}
+
+td {
+    border: solid 1.5px black;
+}
+
+.alive {
+    background-color: salmon;
+}
+
+button {
+    background-color: #ececec;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#start-btn {
+    border: 2px solid #61B84F;
+}
+
+#start-btn:hover {
+    background-color: #61B84F;
+    color: white;
+}
+
+#delete-btn {
+    border: 2px solid #48A6CF;
+}
+
+#delete-btn:hover {
+    background-color: #48A6CF;
+    color: white;
+}
+
+#speed {
+    font-size: 1.2em;
+}
